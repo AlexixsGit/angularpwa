@@ -1,0 +1,22 @@
+#main-detail-div{
+    margin: 10%;
+    margin-top: 2%;
+}
+
+#detail-restaurant-list{
+    list-style-type: none;
+    columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+#detail-info{
+    margin-left: 3%;
+}

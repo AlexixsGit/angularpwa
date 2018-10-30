@@ -1,0 +1,18 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">Name</th>
+      <th scope="col">Phone</th>
+      <th scope="col">Birthday</th>
+    </tr>
+  </thead>
+  <tbody *ngFor="let item of userList">
+    <tr>
+      <th>{{item.id}}</th>
+      <td>{{item.name}}</td>
+      <td>{{item.phone}}</td>
+      <td>{{item.birthday}}</td>
+    </tr>
+  </tbody>
+</table>

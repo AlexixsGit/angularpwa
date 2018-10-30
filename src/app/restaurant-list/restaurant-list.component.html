@@ -1,0 +1,26 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">id</th>
+      <th scope="col">name</th>
+      <th scope="col">address</th>
+      <th scope="col">description</th>
+      <th scope="col">price</th>
+      <th scope="col">Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of restaurantList">
+      <td scope="row">{{item.id}}</td>
+      <td>{{item.name}}</td>
+      <td>{{item.address}}</td>
+      <td>{{item.description}}</td>
+      <td>{{item.price}}</td>
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-info" [routerLink]="[ '/restaurantsDetail', item.id ]">View</button>
+        <button type="button" class="btn btn-success">Edit</button>
+        <button type="button" class="btn btn-danger">Delete</button>
+      </div>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,9 @@
+#main-div{
+    padding: 1%;
+    border: groove;
+    border-width: 1px;
+    border-color: black;
+    margin: 10%;
+    margin-top: 2%;
+    height: 500px;
+}

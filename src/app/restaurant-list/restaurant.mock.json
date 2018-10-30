@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "name": "Cooking delicious",
+        "address": "street 23th south america",
+        "description": "The best natural food",
+        "image": "",
+        "price": "$24.00"
+    },
+    {
+        "id": "2",
+        "name": "Ilforno",
+        "address": "avenue 3th north east",
+        "description": "Amazing italian food",
+        "image": "",
+        "price": "$14.00"
+    },
+    {
+        "id": "3",
+        "name": "Mis carnes",
+        "address": "street south",
+        "description": "Roast",
+        "image": "",
+        "price": "$40.00"
+    }
+]
