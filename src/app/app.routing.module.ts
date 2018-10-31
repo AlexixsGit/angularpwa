@@ -3,12 +3,14 @@ import { RouterModule, Routes } from '@angular/router';
 import { RestaurantDetailComponent } from './restaurant-detail/restaurant-detail.component';
 import { RestaurantListComponent } from './restaurant-list/restaurant-list.component';
 import { UsersComponent } from './users/users.component';
+import { RestaurantEditComponent } from './restaurant-edit/restaurant-edit.component';
 
 
 const appRoutes: Routes = [
     { path: '', redirectTo: '/restaurantList', pathMatch: 'full' },
     { path: 'restaurantList', component: RestaurantListComponent },
     { path: 'restaurantsDetail/:id', component: RestaurantDetailComponent },
+    { path: 'restaurantsEdit/:id', component: RestaurantEditComponent },
     { path: 'users', component: UsersComponent }
 ];
 
