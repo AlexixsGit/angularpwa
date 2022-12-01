@@ -18,7 +18,7 @@
       <td>{{item.price}}</td>
       <div class="btn-group" role="group" aria-label="Basic example">
         <button type="button" class="btn btn-info" [routerLink]="[ '/restaurantsDetail', item.id ]">View</button>
-        <button type="button" class="btn btn-success">Edit</button>
+        <button type="button" class="btn btn-success" [routerLink]="[ '/restaurantsEdit', item.id ]">Edit</button>
         <button type="button" class="btn btn-danger">Delete</button>
       </div>
     </tr>
